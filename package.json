@@ -1,0 +1,22 @@
+{
+    "name": "tailwindcss-color-variables",
+    "version": "0.1.0",
+    "description": "A collection of color variables of Tailwind CSS.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/madouidesign/Tailwindcss-Color-Variables.git"
+    },
+    "keywords": [
+        "tailwind",
+        "css",
+        "colors",
+        "variables"
+    ],
+    "author": "MADOUI Mohamed",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/madouidesign/Tailwindcss-Color-Variables.git/issues"
+    },
+    "homepage": "https://github.com/madouidesign/Tailwindcss-Color-Variables.git#readme",
+    "dependencies": {}
+}
