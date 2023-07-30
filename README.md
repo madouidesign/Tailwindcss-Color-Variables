@@ -26,13 +26,13 @@ All colors are defined as CSS variables in the `:root` selector, and they follow
 To use Tailwind CSS Color Variables with `@import`, add the following line to your CSS file:
 
 ```css
-@import url("https://unpkg.com/tailwindcss-color-variables@v0.1.0/color-[rgb|rgba|hex|hsla].css");
+@import url("https://unpkg.com/tailwindcss-color-variables@v0.1.0/colors-[rgb|rgba|hex|hsla].css");
 ```
 
 Replace `[rgb|rgba|hex|hsla]` with the color format you prefer to use (`rgb`, `rgba`, `hex`, or `hsla`). For example, if you want to use the RGBA color format, your `@import` statement will be:
 
 ```css
-@import url("https://unpkg.com/tailwindcss-color-variables@v0.1.0/color-rgba.css");
+@import url("https://unpkg.com/tailwindcss-color-variables@v0.1.0/colors-rgba.css");
 ```
 
 ### Using `<link>` tag in HTML
@@ -42,7 +42,7 @@ To use Tailwind CSS Color Variables with the `<link>` tag in your HTML file, inc
 ```html
 <link
     rel="stylesheet"
-    href="https://unpkg.com/tailwindcss-color-variables@v0.1.0/color-[rgb|rgba|hex|hsla].css"
+    href="https://unpkg.com/tailwindcss-color-variables@v0.1.0/colors-[rgb|rgba|hex|hsla].css"
 />
 ```
 
