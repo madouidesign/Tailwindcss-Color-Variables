@@ -1,0 +1,286 @@
+:root {
+    /* Slate Colors */
+    --color-slate-50: rgba(248, 250, 252, 1); /* #f8fafc */
+    --color-slate-100: rgba(241, 245, 249, 1); /* #f1f5f9 */
+    --color-slate-200: rgba(226, 232, 240, 1); /* #e2e8f0 */
+    --color-slate-300: rgba(203, 213, 225, 1); /* #cbd5e1 */
+    --color-slate-400: rgba(148, 163, 184, 1); /* #94a3b8 */
+    --color-slate-500: rgba(100, 116, 139, 1); /* #64748b */
+    --color-slate-600: rgba(71, 85, 105, 1); /* #475569 */
+    --color-slate-700: rgba(51, 65, 85, 1); /* #334155 */
+    --color-slate-800: rgba(30, 41, 59, 1); /* #1e293b */
+    --color-slate-900: rgba(15, 23, 42, 1); /* #0f172a */
+    --color-slate-950: rgba(2, 6, 23, 1); /* #020617 */
+
+    /* Gray Colors */
+    --color-gray-50: rgba(249, 250, 251, 1); /* #f9fafb */
+    --color-gray-100: rgba(243, 244, 246, 1); /* #f3f4f6 */
+    --color-gray-200: rgba(229, 231, 235, 1); /* #e5e7eb */
+    --color-gray-300: rgba(209, 213, 219, 1); /* #d1d5db */
+    --color-gray-400: rgba(156, 163, 175, 1); /* #9ca3af */
+    --color-gray-500: rgba(107, 114, 128, 1); /* #6b7280 */
+    --color-gray-600: rgba(75, 85, 99, 1); /* #4b5563 */
+    --color-gray-700: rgba(55, 65, 81, 1); /* #374151 */
+    --color-gray-800: rgba(31, 41, 55, 1); /* #1f2937 */
+    --color-gray-900: rgba(17, 24, 39, 1); /* #111827 */
+    --color-gray-950: rgba(3, 7, 18, 1); /* #030712 */
+
+    /* Zinc Colors */
+    --color-zinc-50: rgba(250, 250, 250, 1); /* #fafafa */
+    --color-zinc-100: rgba(244, 244, 245, 1); /* #f4f4f5 */
+    --color-zinc-200: rgba(228, 228, 231, 1); /* #e4e4e7 */
+    --color-zinc-300: rgba(212, 212, 216, 1); /* #d4d4d8 */
+    --color-zinc-400: rgba(161, 161, 170, 1); /* #a1a1aa */
+    --color-zinc-500: rgba(113, 113, 122, 1); /* #71717a */
+    --color-zinc-600: rgba(82, 82, 91, 1); /* #52525b */
+    --color-zinc-700: rgba(63, 63, 70, 1); /* #3f3f46 */
+    --color-zinc-800: rgba(39, 39, 42, 1); /* #27272a */
+    --color-zinc-900: rgba(24, 24, 27, 1); /* #18181b */
+    --color-zinc-950: rgba(9, 9, 11, 1); /* #09090b */
+
+    /* Neutral Colors */
+    --color-neutral-50: rgba(250, 250, 250, 1); /* #fafafa */
+    --color-neutral-100: rgba(245, 245, 245, 1); /* #f5f5f5 */
+    --color-neutral-200: rgba(229, 229, 229, 1); /* #e5e5e5 */
+    --color-neutral-300: rgba(212, 212, 212, 1); /* #d4d4d4 */
+    --color-neutral-400: rgba(163, 163, 163, 1); /* #a3a3a3 */
+    --color-neutral-500: rgba(115, 115, 115, 1); /* #737373 */
+    --color-neutral-600: rgba(82, 82, 82, 1); /* #525252 */
+    --color-neutral-700: rgba(64, 64, 64, 1); /* #404040 */
+    --color-neutral-800: rgba(38, 38, 38, 1); /* #262626 */
+    --color-neutral-900: rgba(23, 23, 23, 1); /* #171717 */
+    --color-neutral-950: rgba(10, 10, 10, 1); /* #0a0a0a */
+
+    /* Stone Colors */
+    --color-stone-50: rgba(250, 250, 249, 1); /* #fafaf9 */
+    --color-stone-100: rgba(245, 245, 244, 1); /* #f5f5f4 */
+    --color-stone-200: rgba(231, 229, 228, 1); /* #e7e5e4 */
+    --color-stone-300: rgba(214, 211, 209, 1); /* #d6d3d1 */
+    --color-stone-400: rgba(168, 162, 158, 1); /* #a8a29e */
+    --color-stone-500: rgba(120, 113, 108, 1); /* #78716c */
+    --color-stone-600: rgba(87, 83, 78, 1); /* #57534e */
+    --color-stone-700: rgba(68, 64, 60, 1); /* #44403c */
+    --color-stone-800: rgba(41, 37, 36, 1); /* #292524 */
+    --color-stone-900: rgba(28, 25, 23, 1); /* #1c1917 */
+    --color-stone-950: rgba(12, 10, 9, 1); /* #0c0a09 */
+
+    /* Red Colors */
+    --color-red-50: rgba(254, 242, 242, 1); /* #fef2f2 */
+    --color-red-100: rgba(254, 226, 226, 1); /* #fee2e2 */
+    --color-red-200: rgba(254, 202, 202, 1); /* #fecaca */
+    --color-red-300: rgba(252, 165, 165, 1); /* #fca5a5 */
+    --color-red-400: rgba(248, 113, 113, 1); /* #f87171 */
+    --color-red-500: rgba(239, 68, 68, 1); /* #ef4444 */
+    --color-red-600: rgba(220, 38, 38, 1); /* #dc2626 */
+    --color-red-700: rgba(185, 28, 28, 1); /* #b91c1c */
+    --color-red-800: rgba(153, 27, 27, 1); /* #991b1b */
+    --color-red-900: rgba(127, 29, 29, 1); /* #7f1d1d */
+    --color-red-950: rgba(69, 10, 10, 1); /* #450a0a */
+
+    /* Orange Colors */
+    --color-orange-50: rgba(255, 247, 237, 1); /* #fff7ed */
+    --color-orange-100: rgba(255, 237, 213, 1); /* #ffedd5 */
+    --color-orange-200: rgba(254, 215, 170, 1); /* #fed7aa */
+    --color-orange-300: rgba(253, 186, 116, 1); /* #fdba74 */
+    --color-orange-400: rgba(251, 146, 60, 1); /* #fb923c */
+    --color-orange-500: rgba(249, 115, 22, 1); /* #f97316 */
+    --color-orange-600: rgba(234, 88, 12, 1); /* #ea580c */
+    --color-orange-700: rgba(194, 65, 12, 1); /* #c2410c */
+    --color-orange-800: rgba(154, 52, 18, 1); /* #9a3412 */
+    --color-orange-900: rgba(124, 45, 18, 1); /* #7c2d12 */
+    --color-orange-950: rgba(67, 20, 7, 1); /* #431407 */
+
+    /* Amber Colors */
+    --color-amber-50: rgba(255, 251, 235, 1); /* #fffbeb */
+    --color-amber-100: rgba(254, 243, 199, 1); /* #fef3c7 */
+    --color-amber-200: rgba(253, 230, 138, 1); /* #fde68a */
+    --color-amber-300: rgba(252, 211, 77, 1); /* #fcd34d */
+    --color-amber-400: rgba(251, 191, 36, 1); /* #fbbf24 */
+    --color-amber-500: rgba(245, 158, 11, 1); /* #f59e0b */
+    --color-amber-600: rgba(217, 119, 6, 1); /* #d97706 */
+    --color-amber-700: rgba(180, 83, 9, 1); /* #b45309 */
+    --color-amber-800: rgba(146, 64, 14, 1); /* #92400e */
+    --color-amber-900: rgba(120, 53, 15, 1); /* #78350f */
+    --color-amber-950: rgba(69, 26, 3, 1); /* #451a03 */
+
+    /* Yellow Colors */
+    --color-yellow-50: rgba(254, 252, 232, 1); /* #fefce8 */
+    --color-yellow-100: rgba(254, 249, 195, 1); /* #fef9c3 */
+    --color-yellow-200: rgba(254, 240, 138, 1); /* #fef08a */
+    --color-yellow-300: rgba(253, 224, 71, 1); /* #fde047 */
+    --color-yellow-400: rgba(250, 204, 21, 1); /* #facc15 */
+    --color-yellow-500: rgba(234, 179, 8, 1); /* #eab308 */
+    --color-yellow-600: rgba(202, 138, 4, 1); /* #ca8a04 */
+    --color-yellow-700: rgba(161, 98, 7, 1); /* #a16207 */
+    --color-yellow-800: rgba(133, 77, 14, 1); /* #854d0e */
+    --color-yellow-900: rgba(113, 63, 18, 1); /* #713f12 */
+    --color-yellow-950: rgba(66, 32, 6, 1); /* #422006 */
+
+    /* Lime Colors */
+    --color-lime-50: rgba(247, 254, 231, 1); /* #f7fee7 */
+    --color-lime-100: rgba(236, 252, 203, 1); /* #ecfccb */
+    --color-lime-200: rgba(217, 249, 157, 1); /* #d9f99d */
+    --color-lime-300: rgba(190, 242, 100, 1); /* #bef264 */
+    --color-lime-400: rgba(163, 230, 53, 1); /* #a3e635 */
+    --color-lime-500: rgba(132, 204, 22, 1); /* #84cc16 */
+    --color-lime-600: rgba(101, 163, 13, 1); /* #65a30d */
+    --color-lime-700: rgba(77, 124, 15, 1); /* #4d7c0f */
+    --color-lime-800: rgba(63, 98, 18, 1); /* #3f6212 */
+    --color-lime-900: rgba(54, 83, 20, 1); /* #365314 */
+    --color-lime-950: rgba(26, 46, 5, 1); /* #1a2e05 */
+
+    /* Green Colors */
+    --color-green-50: rgba(240, 253, 244, 1); /* #f0fdf4 */
+    --color-green-100: rgba(220, 252, 231, 1); /* #dcfce7 */
+    --color-green-200: rgba(187, 247, 208, 1); /* #bbf7d0 */
+    --color-green-300: rgba(134, 239, 172, 1); /* #86efac */
+    --color-green-400: rgba(74, 222, 128, 1); /* #4ade80 */
+    --color-green-500: rgba(34, 197, 94, 1); /* #22c55e */
+    --color-green-600: rgba(22, 163, 74, 1); /* #16a34a */
+    --color-green-700: rgba(21, 128, 61, 1); /* #15803d */
+    --color-green-800: rgba(22, 101, 52, 1); /* #166534 */
+    --color-green-900: rgba(20, 83, 45, 1); /* #14532d */
+    --color-green-950: rgba(5, 46, 22, 1); /* #052e16 */
+
+    /* Emerald Colors */
+    --color-emerald-50: rgba(236, 253, 245, 1); /* #ecfdf5 */
+    --color-emerald-100: rgba(209, 250, 229, 1); /* #d1fae5 */
+    --color-emerald-200: rgba(167, 243, 208, 1); /* #a7f3d0 */
+    --color-emerald-300: rgba(110, 231, 183, 1); /* #6ee7b7 */
+    --color-emerald-400: rgba(52, 211, 153, 1); /* #34d399 */
+    --color-emerald-500: rgba(16, 185, 129, 1); /* #10b981 */
+    --color-emerald-600: rgba(5, 150, 105, 1); /* #059669 */
+    --color-emerald-700: rgba(4, 120, 87, 1); /* #047857 */
+    --color-emerald-800: rgba(6, 95, 70, 1); /* #065f46 */
+    --color-emerald-900: rgba(6, 78, 59, 1); /* #064e3b */
+    --color-emerald-950: rgba(2, 44, 34, 1); /* #022c22 */
+
+    /* Teal Colors */
+    --color-teal-50: rgba(240, 253, 250, 1); /* #f0fdfa */
+    --color-teal-100: rgba(204, 251, 241, 1); /* #ccfbf1 */
+    --color-teal-200: rgba(153, 246, 228, 1); /* #99f6e4 */
+    --color-teal-300: rgba(94, 234, 212, 1); /* #5eead4 */
+    --color-teal-400: rgba(45, 212, 191, 1); /* #2dd4bf */
+    --color-teal-500: rgba(20, 184, 166, 1); /* #14b8a6 */
+    --color-teal-600: rgba(13, 148, 136, 1); /* #0d9488 */
+    --color-teal-700: rgba(15, 118, 110, 1); /* #0f766e */
+    --color-teal-800: rgba(17, 94, 89, 1); /* #115e59 */
+    --color-teal-900: rgba(19, 78, 74, 1); /* #134e4a */
+    --color-teal-950: rgba(4, 47, 46, 1); /* #042f2e */
+
+    /* Blue Colors */
+    --color-blue-50: rgba(239, 246, 255, 1); /* #eff6ff */
+    --color-blue-100: rgba(219, 234, 254, 1); /* #dbeafe */
+    --color-blue-200: rgba(191, 219, 254, 1); /* #bfdbfe */
+    --color-blue-300: rgba(147, 197, 253, 1); /* #93c5fd */
+    --color-blue-400: rgba(96, 165, 250, 1); /* #60a5fa */
+    --color-blue-500: rgba(59, 130, 246, 1); /* #3b82f6 */
+    --color-blue-600: rgba(37, 99, 235, 1); /* #2563eb */
+    --color-blue-700: rgba(29, 78, 216, 1); /* #1d4ed8 */
+    --color-blue-800: rgba(30, 64, 175, 1); /* #1e40af */
+    --color-blue-900: rgba(30, 58, 138, 1); /* #1e3a8a */
+    --color-blue-950: rgba(23, 37, 84, 1); /* #172554 */
+
+    /* Sky Colors */
+    --color-sky-50: rgba(240, 249, 255, 1); /* #f0f9ff */
+    --color-sky-100: rgba(224, 242, 254, 1); /* #e0f2fe */
+    --color-sky-200: rgba(186, 230, 253, 1); /* #bae6fd */
+    --color-sky-300: rgba(125, 211, 252, 1); /* #7dd3fc */
+    --color-sky-400: rgba(56, 189, 248, 1); /* #38bdf8 */
+    --color-sky-500: rgba(14, 165, 233, 1); /* #0ea5e9 */
+    --color-sky-600: rgba(2, 132, 199, 1); /* #0284c7 */
+    --color-sky-700: rgba(3, 105, 161, 1); /* #0369a1 */
+    --color-sky-800: rgba(7, 89, 133, 1); /* #075985 */
+    --color-sky-900: rgba(12, 74, 110, 1); /* #0c4a6e */
+    --color-sky-950: rgba(8, 47, 73, 1); /* #082f49 */
+
+    /* Cyan Colors */
+    --color-cyan-50: rgba(236, 254, 255, 1); /* #ecfeff */
+    --color-cyan-100: rgba(207, 250, 254, 1); /* #cffafe */
+    --color-cyan-200: rgba(165, 243, 252, 1); /* #a5f3fc */
+    --color-cyan-300: rgba(103, 232, 249, 1); /* #67e8f9 */
+    --color-cyan-400: rgba(34, 211, 238, 1); /* #22d3ee */
+    --color-cyan-500: rgba(6, 182, 212, 1); /* #06b6d4 */
+    --color-cyan-600: rgba(8, 145, 178, 1); /* #0891b2 */
+    --color-cyan-700: rgba(14, 116, 144, 1); /* #0e7490 */
+    --color-cyan-800: rgba(21, 94, 117, 1); /* #155e75 */
+    --color-cyan-900: rgba(22, 78, 99, 1); /* #164e63 */
+    --color-cyan-950: rgba(8, 51, 68, 1); /* #083344 */
+
+    /* Indigo Colors */
+    --color-indigo-50: rgba(238, 242, 255, 1); /* #eef2ff */
+    --color-indigo-100: rgba(224, 231, 255, 1); /* #e0e7ff */
+    --color-indigo-200: rgba(199, 210, 254, 1); /* #c7d2fe */
+    --color-indigo-300: rgba(165, 180, 252, 1); /* #a5b4fc */
+    --color-indigo-400: rgba(129, 140, 248, 1); /* #818cf8 */
+    --color-indigo-500: rgba(99, 102, 241, 1); /* #6366f1 */
+    --color-indigo-600: rgba(79, 70, 229, 1); /* #4f46e5 */
+    --color-indigo-700: rgba(67, 56, 202, 1); /* #4338ca */
+    --color-indigo-800: rgba(55, 48, 163, 1); /* #3730a3 */
+    --color-indigo-900: rgba(49, 46, 129, 1); /* #312e81 */
+    --color-indigo-950: rgba(30, 27, 75, 1); /* #1e1b4b */
+    /* Violet Colors */
+    --color-violet-50: rgba(245, 243, 255, 1); /* #f5f3ff */
+    --color-violet-100: rgba(237, 233, 254, 1); /* #ede9fe */
+    --color-violet-200: rgba(221, 214, 254, 1); /* #ddd6fe */
+    --color-violet-300: rgba(196, 181, 253, 1); /* #c4b5fd */
+    --color-violet-400: rgba(167, 139, 250, 1); /* #a78bfa */
+    --color-violet-500: rgba(139, 92, 246, 1); /* #8b5cf6 */
+    --color-violet-600: rgba(124, 58, 237, 1); /* #7c3aed */
+    --color-violet-700: rgba(109, 40, 217, 1); /* #6d28d9 */
+    --color-violet-800: rgba(91, 33, 182, 1); /* #5b21b6 */
+    --color-violet-900: rgba(76, 29, 149, 1); /* #4c1d95 */
+    --color-violet-950: rgba(46, 16, 101, 1); /* #2e1065 */
+
+    /* Purple Colors */
+    --color-purple-50: rgba(250, 245, 255, 1); /* #faf5ff */
+    --color-purple-100: rgba(243, 232, 255, 1); /* #f3e8ff */
+    --color-purple-200: rgba(233, 213, 255, 1); /* #e9d5ff */
+    --color-purple-300: rgba(216, 180, 254, 1); /* #d8b4fe */
+    --color-purple-400: rgba(192, 132, 252, 1); /* #c084fc */
+    --color-purple-500: rgba(168, 85, 247, 1); /* #a855f7 */
+    --color-purple-600: rgba(147, 51, 234, 1); /* #9333ea */
+    --color-purple-700: rgba(126, 34, 206, 1); /* #7e22ce */
+    --color-purple-800: rgba(107, 33, 168, 1); /* #6b21a8 */
+    --color-purple-900: rgba(88, 28, 135, 1); /* #581c87 */
+    --color-purple-950: rgba(59, 7, 100, 1); /* #3b0764 */
+
+    /* Fuchsia Colors */
+    --color-fuchsia-50: rgba(253, 244, 255, 1); /* #fdf4ff */
+    --color-fuchsia-100: rgba(250, 232, 255, 1); /* #fae8ff */
+    --color-fuchsia-200: rgba(245, 208, 254, 1); /* #f5d0fe */
+    --color-fuchsia-300: rgba(240, 171, 252, 1); /* #f0abfc */
+    --color-fuchsia-400: rgba(232, 121, 249, 1); /* #e879f9 */
+    --color-fuchsia-500: rgba(217, 70, 239, 1); /* #d946ef */
+    --color-fuchsia-600: rgba(192, 38, 211, 1); /* #c026d3 */
+    --color-fuchsia-700: rgba(162, 28, 175, 1); /* #a21caf */
+    --color-fuchsia-800: rgba(134, 25, 143, 1); /* #86198f */
+    --color-fuchsia-900: rgba(112, 26, 117, 1); /* #701a75 */
+    --color-fuchsia-950: rgba(74, 4, 78, 1); /* #4a044e */
+
+    /* Pink Colors */
+    --color-pink-50: rgba(253, 242, 248, 1); /* #fdf2f8 */
+    --color-pink-100: rgba(252, 231, 243, 1); /* #fce7f3 */
+    --color-pink-200: rgba(251, 207, 232, 1); /* #fbcfe8 */
+    --color-pink-300: rgba(249, 168, 212, 1); /* #f9a8d4 */
+    --color-pink-400: rgba(244, 114, 182, 1); /* #f472b6 */
+    --color-pink-500: rgba(236, 72, 153, 1); /* #ec4899 */
+    --color-pink-600: rgba(219, 39, 119, 1); /* #db2777 */
+    --color-pink-700: rgba(190, 24, 93, 1); /* #be185d */
+    --color-pink-800: rgba(157, 23, 77, 1); /* #9d174d */
+    --color-pink-900: rgba(131, 24, 67, 1); /* #831843 */
+    --color-pink-950: rgba(80, 7, 36, 1); /* #500724 */
+
+    /* Rose Colors */
+    --color-rose-50: rgba(255, 241, 242, 1); /* #fff1f2 */
+    --color-rose-100: rgba(255, 228, 230, 1); /* #ffe4e6 */
+    --color-rose-200: rgba(254, 205, 211, 1); /* #fecdd3 */
+    --color-rose-300: rgba(253, 164, 175, 1); /* #fda4af */
+    --color-rose-400: rgba(251, 113, 133, 1); /* #fb7185 */
+    --color-rose-500: rgba(244, 63, 94, 1); /* #f43f5e */
+    --color-rose-600: rgba(225, 29, 72, 1); /* #e11d48 */
+    --color-rose-700: rgba(190, 18, 60, 1); /* #be123c */
+    --color-rose-800: rgba(159, 18, 57, 1); /* #9f1239 */
+    --color-rose-900: rgba(136, 19, 55, 1); /* #881337 */
+    --color-rose-950: rgba(76, 5, 25, 1); /* #4c0519 */
+}
