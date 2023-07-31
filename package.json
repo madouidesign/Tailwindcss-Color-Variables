@@ -1,6 +1,6 @@
 {
     "name": "tailwindcss-color-variables",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A collection of color variables of Tailwind CSS.",
     "repository": {
         "type": "git",
